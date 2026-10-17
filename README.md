@@ -6,6 +6,7 @@ Windows 中文桌面工具，把 Tai 的应用使用汇总迁移到 Hindsight �
 **使用前请务必备份您的Hindsight数据库文件 以防丢失数据**
 1. 先运行一次 Hindsight，确保已有初始化的数据库。
 2. 打开工具，用“智能定位”或“扫描…”找到 Tai 来源和 Hindsight 目标。也可选择数据库、程序或快捷方式。
+
 [Tai数据位置通常在安装目录下 Tai\Data\data.db    Hindsight通常在\AppData\Roaming\Hindsight\hindsight.sqlite（在Hindsight内可以打开数据目录） ]
 4. 定位时可保持软件运行；**预览和迁移前完全退出 Tai、Hindsight 及托盘进程**。
 
