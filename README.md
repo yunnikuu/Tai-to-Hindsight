@@ -1,6 +1,6 @@
 # Tai → Hindsight 数据迁移工具
 
-Windows 中文桌面工具，把 Tai 的应用使用时间迁移到 Hindsight 数据库
+将 Tai 的应用使用时间迁移到 Hindsight 数据库
 
 ![示例图片](main.png)
 
