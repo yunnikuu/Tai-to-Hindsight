@@ -1,6 +1,8 @@
 # Tai → Hindsight 数据迁移工具
 
-Windows 中文桌面工具，把 Tai 的应用使用汇总迁移到 Hindsight 本机数据库。当前源码版本为 **v1.1.0**，使用 Python 3.12、CustomTkinter 和 SQLite。
+Windows 中文桌面工具，把 Tai 的应用使用时间迁移到 Hindsight 数据库
+
+![示例图片](main.png)
 
 ## 使用
 **使用前请务必备份您的Hindsight数据库文件 以防丢失数据**
@@ -11,7 +13,7 @@ Windows 中文桌面工具，把 Tai 的应用使用汇总迁移到 Hindsight �
 
 [Hindsight通常在\AppData\Roaming\Hindsight\hindsight.sqlite ] （在Hindsight内可以打开数据目录）
 
-4. 定位时可保持软件运行；**预览和迁移前完全退出 Tai、Hindsight 及托盘进程**。
+3.**预览和迁移前完全退出 Tai、Hindsight 及托盘进程**。
 
 备份与报告保存在目标数据库旁的 `tai-migration-backups` 文件夹。恢复时需要备份的同名 `.json` 校验文件；恢复会撤回备份之后整个数据库的全部变化，恢复前会额外创建安全备份。
 
